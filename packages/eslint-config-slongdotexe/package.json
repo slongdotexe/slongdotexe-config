@@ -1,6 +1,6 @@
 {
   "name": "@slongdotexe/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "base.js",
   "author": "Sean L",
   "license": "MIT",
