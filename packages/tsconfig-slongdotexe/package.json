@@ -3,5 +3,8 @@
   "version": "0.0.1",
   "main": "base.json",
   "author": "Sean L",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
