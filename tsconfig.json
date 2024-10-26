@@ -1,0 +1,4 @@
+{
+  "extends": "@slongdotexe/tsconfig/base",
+  "include": ["scripts/**/*"]
+}
