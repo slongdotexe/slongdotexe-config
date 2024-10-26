@@ -18,6 +18,9 @@ jobs:
       - name: Enable CorePack
         run: corepack enable
 
+      - name: Set Registry Credentials
+        run: yarn config set 'npmRegistries["//npm.pkg.github.com"].npmAuthToken' ${{ secrets.GITHUB_TOKEN }}
+
       - name: Setup Node & Registry
         uses: actions/setup-node@v4
         with:
